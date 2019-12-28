@@ -4,8 +4,8 @@ permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
-markdown: redcarpet
-redcarpet:
+markdown: kramdown
+kramdown:
   extensions: ["tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "with_toc_data", "strikethrough"]
 
 highlighter: pygments
